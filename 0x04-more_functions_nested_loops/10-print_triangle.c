@@ -16,13 +16,13 @@ void print_triangle(int n)
 				_putchar(" ");
 
 			for (tri = 0; tri < h; tri++)
-				_putchar('#');
+				_putchar("#");
 
 			if (h == n)
 				continue;
 
-			_putchar('\n');
+			_putchar("\n");
 		}
-	}	
-	_putchar('\n');
+	}
+	_putchar("\n");
 }
